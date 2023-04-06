@@ -25,6 +25,10 @@ Things you may want to cover:
 
 ---
 
+## Rails cli
+
+using the rails cli we can generate new application `rails new ruby-app` creates a new scaffolding of a ruby on rails application with all of the files and dependencies.
+
 ## Rails generator
 
 The rails generator does a lot of boilerplate work so developers don't have to configure everything individually.
@@ -57,5 +61,9 @@ Pages need webpacker to run properly
 Ruby does a lot of abstraction
 
 - `rails routes` displays all the existing routes. [ uses rake ]
+
+## Rest API
+
+we can decouple the ruby on rails application and use it as a backend. for that we only need to declare the functionality in the controllers and return the expected results.
 
 ## Rake
