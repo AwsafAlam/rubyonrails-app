@@ -49,3 +49,13 @@ Running via Spring preloader in process 73401
       invoke    scss
       create      app/assets/stylesheets/home.scss
 ```
+
+Pages need webpacker to run properly
+
+- `bundle exec rails webpacker:install`
+
+Ruby does a lot of abstraction
+
+- `rails routes` displays all the existing routes. [ uses rake ]
+
+## Rake
